@@ -1,5 +1,0 @@
-Toplam Kiralama Cirosu = 
-SUMX(
-    Kiralamalar,
-    (Kiralamalar[Kira Gün Sayısı] * Kiralamalar[GunlukFiyatTL] * (1 - Kiralamalar[IndirimOrani])) + Kiralamalar[EkHizmetTL]
-)
